@@ -5,7 +5,6 @@ import psycopg2
 DB_HOST = "localhost"
 DB_NAME = "pharmacy_mang"
 login_screen = Tk() 
-#cur=conn.cursor()
 #defining login function
 def login():
     #getting form data
